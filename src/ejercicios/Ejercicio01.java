@@ -8,19 +8,20 @@ import java.util.Scanner;
 
 public class Ejercicio01 {
 
-    public static void main(String[] args) {
+    private static Scanner sc;
+
+	public static void main(String[] args) {
         // Creamos dos variables donde almacenar los números solicitados
         int a = 1;
         int b = 2;
 
-        //El scanner
-        Scanner sc = new Scanner(System.in);
+        sc = new Scanner(System.in);
 
         //Pedir al usuario que introduzca 2 números enteros.
         System.out.println("EJERCICIO 01");
         System.out.println("============");
         System.out.println("Introduce un número entero: ");
-        //Almacenamos el número que escribe el usuario
+        //Almacenamos el n�mero que escribe el usuario
         a = sc.nextInt();
         //Solicitamos el segundo número
         System.out.println("Introduce otro número entero: ");

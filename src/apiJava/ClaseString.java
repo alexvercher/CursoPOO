@@ -6,9 +6,10 @@ public class ClaseString {
 
         String cadena = "Mi cadena de caracteres";
         String cadena2 = new String("Mi cadena de caracteres 2");
+  
 
-        int tamaño = cadena.length(); // Tamaño del string (Número de caracteres)
-        System.out.println(tamaño);
+        int tamano = cadena.length(); // Tamaño del string (Número de caracteres)
+        System.out.println(tamano);
 
         //.charAt(int pos) --> Devuelve el carácter que hay en una posición dada
         char c = cadena2.charAt(1);
